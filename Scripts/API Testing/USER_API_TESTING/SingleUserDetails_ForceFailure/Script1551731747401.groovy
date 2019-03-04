@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 'Send API Request for Single User'
 apiUD_Response = WS.sendRequest(findTestObject('WS_Objects/RESTAPI_GET_SingleUser'))
 
-'Verify status code is a success'
+'updating desc'
 WS.verifyResponseStatusCode(apiUD_Response, 200)
 
 'Single User Details forcing failure by using wanda instead of janet\r\n'
