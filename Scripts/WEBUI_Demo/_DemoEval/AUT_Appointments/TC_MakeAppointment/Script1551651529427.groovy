@@ -32,5 +32,7 @@ WebUI.click(findTestObject('Object Repository/otherPage/button_Book Appointment'
 
 WebUI.delay(3)
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 

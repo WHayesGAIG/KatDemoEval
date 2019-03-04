@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SglUserDetails_ForceFailure</name>
+   <name>SglUserDetails</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e5b59119-5d06-46d5-92de-afc72210b1f0</testCaseGuid>

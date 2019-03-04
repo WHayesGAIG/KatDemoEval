@@ -13,9 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Send API Request for Single User'
 apiUD_Response = WS.sendRequest(findTestObject('WS_Objects/RESTAPI_GET_SingleUser'))
 
+'Verify status code is a success'
 WS.verifyResponseStatusCode(apiUD_Response, 200)
 
+'Single User Details forcing failure by using wanda instead of janet\r\n'
 WS.verifyElementPropertyValue(apiUD_Response, 'data.first_name', 'Wanda')
 
