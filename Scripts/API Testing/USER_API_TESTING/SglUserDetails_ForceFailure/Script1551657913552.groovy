@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 apiUD_Response = WS.sendRequest(findTestObject('WS_Objects/RESTAPI_GET_SingleUser'))
 
+'Verify API Response'
 WS.verifyResponseStatusCode(apiUD_Response, 200)
 
+'Verify the response record include WANDA in the text (this should fail)'
 WS.verifyElementPropertyValue(apiUD_Response, 'data.first_name', 'Janet')
 
