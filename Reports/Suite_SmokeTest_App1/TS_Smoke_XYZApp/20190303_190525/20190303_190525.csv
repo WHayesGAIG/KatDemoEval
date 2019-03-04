@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Smoke_XYZApp,Chrome 72.0.3626.81,,2019-03-03 19:05:30,2019-03-03 19:05:53,22.845s,FAILED
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_Login,Chrome 72.0.3626.81,,2019-03-03 19:05:31,2019-03-03 19:05:41,10.300s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-03 19:05:32,2019-03-03 19:05:37,5.169s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-03 19:05:37,2019-03-03 19:05:39,2.206s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-03 19:05:39,2019-03-03 19:05:40,0.635s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 72.0.3626.81,,2019-03-03 19:05:40,2019-03-03 19:05:40,0.333s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 72.0.3626.81,,2019-03-03 19:05:40,2019-03-03 19:05:41,0.449s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 72.0.3626.81,,2019-03-03 19:05:41,2019-03-03 19:05:41,0.449s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-03-03 19:05:41,2019-03-03 19:05:41,0.005s,NOT_RUN
+,,,,,,
+Test Cases/API Testing/USER_API_TESTING/SglUserDetails_ForceFailure,Chrome 72.0.3626.81,,2019-03-03 19:05:41,2019-03-03 19:05:50,8.800s,PASSED
+"apiUD_Response = sendRequest(findTestObject(""WS_Objects/RESTAPI_GET_SingleUser""))",Chrome 72.0.3626.81,,2019-03-03 19:05:42,2019-03-03 19:05:50,8.160s,PASSED
+"verifyResponseStatusCode(apiUD_Response, 200)",Chrome 72.0.3626.81,,2019-03-03 19:05:50,2019-03-03 19:05:50,0.023s,PASSED
+"verifyElementPropertyValue(apiUD_Response, ""data.first_name"", ""Janet"")",Chrome 72.0.3626.81,,2019-03-03 19:05:50,2019-03-03 19:05:50,0.108s,PASSED
+,,,,,,
+Test Cases/API Testing/USER_API_TESTING/SingleUserDetails,Chrome 72.0.3626.81,,2019-03-03 19:05:50,2019-03-03 19:05:52,2.128s,FAILED
+"apiUD_Response = sendRequest(findTestObject(""WS_Objects/RESTAPI_GET_SingleUser""))",Chrome 72.0.3626.81,,2019-03-03 19:05:51,2019-03-03 19:05:52,1.636s,PASSED
+"verifyResponseStatusCode(apiUD_Response, 200)",Chrome 72.0.3626.81,,2019-03-03 19:05:52,2019-03-03 19:05:52,0.007s,PASSED
+"verifyElementPropertyValue(apiUD_Response, ""data.first_name"", ""Wanda"")",Chrome 72.0.3626.81,,2019-03-03 19:05:52,2019-03-03 19:05:52,0.076s,FAILED

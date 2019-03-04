@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register with mandatory data",
+        "description": "",
+        "id": "register-a-new-user;register-with-mandatory-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5590696044,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Registration Page",
+            "match": {
+              "location": "AllSteps.user_open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360248902,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Username",
+            "match": {
+              "location": "AllSteps.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 359297144,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email Id",
+            "match": {
+              "location": "AllSteps.user_enters_emailID()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register a new user",
+    "description": "",
+    "id": "register-a-new-user",
+    "keyword": "Feature",
+    "uri": "C:/Users/whayes/Desktop/WHLocal/KatalonLocalProjects/DemoForEval/./Include/features/WH_BDD_Demo/RegisterUser.feature",
+    "tags": []
+  }
+]
