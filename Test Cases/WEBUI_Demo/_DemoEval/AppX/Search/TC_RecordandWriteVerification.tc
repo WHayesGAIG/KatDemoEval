@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>go to facebook page</description>
+   <description>Record test and capture verification</description>
    <name>TC_RecordandWriteVerification</name>
    <tag></tag>
    <comment></comment>

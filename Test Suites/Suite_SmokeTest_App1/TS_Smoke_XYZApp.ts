@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_MakeAppointment</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e03346c9-cb27-4598-900b-1132064ce585</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEBUI_Demo/_DemoEval/AppX/Search/TC_RecordandWriteVerification</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
