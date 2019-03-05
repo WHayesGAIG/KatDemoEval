@@ -15,22 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-'URL for demo site'
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-'text im looking for here'
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 'CURA Healthcare Service')
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 'CURA Healthcare ServiceWH', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
-
-'Valid username'
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-'Use a valid pswd - Note the Password has been encrypted here ... woohoo!'
-WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'I474VAixgZjVtcCCRsKxXQKA2HsH6T4T')
-
-'this is the desc of what this step does'
-WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
+WebUI.click(findTestObject('Object Repository/wh/a_Make Appointment'))
 
 WebUI.closeBrowser()
 

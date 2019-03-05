@@ -40,4 +40,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEBUI_Demo/_DemoEval/AppX/Search/TC_RecordandWriteVerification</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4fa1173f-82bd-46a9-a77e-2e105ce649df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BDD Test/BDD Testing</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

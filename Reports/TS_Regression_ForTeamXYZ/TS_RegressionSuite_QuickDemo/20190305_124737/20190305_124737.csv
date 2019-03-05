@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionSuite_QuickDemo,Chrome 72.0.3626.81,Run quick regression during demo.,2019-03-05 12:47:40,2019-03-05 12:47:59,18.898s,PASSED
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_Login,Chrome 72.0.3626.81,,2019-03-05 12:47:41,2019-03-05 12:47:51,10.336s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-05 12:47:42,2019-03-05 12:47:45,3.948s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-05 12:47:45,2019-03-05 12:47:47,1.310s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-05 12:47:47,2019-03-05 12:47:47,0.581s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 72.0.3626.81,,2019-03-05 12:47:47,2019-03-05 12:47:48,0.352s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 72.0.3626.81,,2019-03-05 12:47:48,2019-03-05 12:47:48,0.666s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-05 12:47:48,2019-03-05 12:47:49,0.408s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-03-05 12:47:49,2019-03-05 12:47:49,0.027s,NOT_RUN
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_LoginFailure,Chrome 72.0.3626.81,,2019-03-05 12:47:51,2019-03-05 12:47:58,7.370s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-05 12:47:51,2019-03-05 12:47:54,2.621s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-05 12:47:54,2019-03-05 12:47:55,0.994s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-05 12:47:55,2019-03-05 12:47:55,0.418s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""WHayes"")",Chrome 72.0.3626.81,,2019-03-05 12:47:55,2019-03-05 12:47:56,0.259s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 72.0.3626.81,,2019-03-05 12:47:56,2019-03-05 12:47:56,0.271s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-05 12:47:56,2019-03-05 12:47:56,0.362s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-03-05 12:47:56,2019-03-05 12:47:56,0.017s,NOT_RUN

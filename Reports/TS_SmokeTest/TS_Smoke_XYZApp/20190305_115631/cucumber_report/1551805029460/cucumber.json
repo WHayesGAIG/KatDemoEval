@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register with mandatory data",
+        "description": "",
+        "id": "register-a-new-user;register-with-mandatory-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1684233850,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Demo Site",
+            "match": {
+              "location": "AllSteps.user_open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201804509,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Make Appoint Link",
+            "match": {
+              "location": "AllSteps.User_click_on_Make_Appoint_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161492286,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid LoginID",
+            "match": {
+              "location": "AllSteps.User_enter_valid_LoginID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133648905,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter valid password",
+            "match": {
+              "location": "AllSteps.User_enter_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3851458981,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on login button",
+            "match": {
+              "location": "AllSteps.User_click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register a new user",
+    "description": "",
+    "id": "register-a-new-user",
+    "keyword": "Feature",
+    "uri": "C:/Users/whayes/Desktop/WHLocal/KatalonLocalProjects/DemoForEval/./Include/features/WH_BDD_Demo/RegisterUser.feature",
+    "tags": []
+  }
+]

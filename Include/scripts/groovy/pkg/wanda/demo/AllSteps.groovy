@@ -75,5 +75,7 @@ class AllSteps {
 	@When("User click on login button")
 	def User_click_on_login_button(){
 		WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
+		WebUI.delay(3)
+		WebUI.closeBrowser()
 	}
 }

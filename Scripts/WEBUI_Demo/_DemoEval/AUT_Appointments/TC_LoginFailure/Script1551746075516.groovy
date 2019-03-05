@@ -19,6 +19,7 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
+'login using a forced failure'
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'WHayes')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
@@ -26,5 +27,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
 
 not_run: WebUI.closeBrowser()
-
 

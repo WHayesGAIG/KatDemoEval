@@ -13,10 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('WEBUI_Demo/_DemoEval/AUT_Appointments/TC_LoginFailure'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEBUI_Demo/_DemoEval/AUT_Appointments/TC_LoginFailure'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('otherPage/selectBoxForHealthCareCenter'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('otherPage/selectBoxForHealthCareCenter'), 'Hongkong CURA Healthcare Center', true)
 
 WebUI.click(findTestObject('Object Repository/otherPage/input_Apply for hospital readmission_hospital_readmission'))
 
