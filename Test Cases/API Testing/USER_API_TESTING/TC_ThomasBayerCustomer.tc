@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>retrieve customer info</description>
+   <name>TC_ThomasBayerCustomer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c58a388-e88d-4fe0-84e1-4a513526f85b</testCaseGuid>
+</TestCaseEntity>

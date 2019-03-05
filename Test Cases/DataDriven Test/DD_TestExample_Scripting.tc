@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WH Data Driven Test Example</description>
+   <name>DD_TestExample_Scripting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56a407b2-b9d7-4ed7-b8a8-ea4577ebc8c7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8303c24-e7fc-4bf7-a1b5-c4bf010079d8</id>
+      <masked>false</masked>
+      <name>wh_uname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80bcfc08-f12a-426c-92e9-5bf5ad39a4fc</id>
+      <masked>false</masked>
+      <name>wh_pswd</name>
+   </variable>
+</TestCaseEntity>

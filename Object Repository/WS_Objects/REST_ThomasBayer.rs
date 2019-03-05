@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Example of API
-
-https://reqres.in/</description>
-   <name>RESTAPI_GET_MultiUsers</name>
+   <description></description>
+   <name>REST_ThomasBayer</name>
    <tag></tag>
-   <elementGuidId>47953fff-70e8-482d-a01a-f0987cd7a56b</elementGuidId>
+   <elementGuidId>dbc8a89a-16b2-4f51-97c3-ae6efa56f0bf</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -13,7 +11,7 @@ https://reqres.in/</description>
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
+   <restUrl>http://thomas-bayer.com/sqlrest/CUSTOMER/?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

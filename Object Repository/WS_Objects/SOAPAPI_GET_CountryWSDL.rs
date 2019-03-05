@@ -16,7 +16,7 @@ http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?W
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod>SOAP</soapRequestMethod>
-   <soapServiceFunction>ListOfContinentsByName</soapServiceFunction>
+   <soapServiceFunction>CountryCurrency</soapServiceFunction>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

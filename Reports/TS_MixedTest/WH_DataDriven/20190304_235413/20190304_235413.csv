@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WH_DataDriven,Chrome 72.0.3626.81,Run data driven test,2019-03-04 23:54:18,2019-03-04 23:54:41,22.286s,PASSED
+,,,,,,
+Test Cases/DataDriven Test/DD_TestExample,Chrome 72.0.3626.81,WH Data Driven Test Example,2019-03-04 23:54:19,2019-03-04 23:54:32,13.115s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-04 23:54:20,2019-03-04 23:54:27,6.557s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-04 23:54:27,2019-03-04 23:54:30,3.190s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-04 23:54:30,2019-03-04 23:54:31,0.700s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), wh_uname)",Chrome 72.0.3626.81,,2019-03-04 23:54:31,2019-03-04 23:54:31,0.424s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), wh_pswd)",Chrome 72.0.3626.81,,2019-03-04 23:54:31,2019-03-04 23:54:32,0.386s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-04 23:54:32,2019-03-04 23:54:32,0.561s,PASSED
+,,,,,,
+Test Cases/DataDriven Test/DD_TestExample,Chrome 72.0.3626.81,WH Data Driven Test Example,2019-03-04 23:54:32,2019-03-04 23:54:40,7.558s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-04 23:54:32,2019-03-04 23:54:35,3.010s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-04 23:54:35,2019-03-04 23:54:37,2.181s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-04 23:54:37,2019-03-04 23:54:38,0.713s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), wh_uname)",Chrome 72.0.3626.81,,2019-03-04 23:54:38,2019-03-04 23:54:38,0.318s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), wh_pswd)",Chrome 72.0.3626.81,,2019-03-04 23:54:38,2019-03-04 23:54:39,0.393s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-04 23:54:39,2019-03-04 23:54:40,0.891s,PASSED

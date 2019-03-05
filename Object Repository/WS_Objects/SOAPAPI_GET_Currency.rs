@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Example of API
-
-https://reqres.in/</description>
-   <name>RESTAPI_GET_MultiUsers</name>
+   <description>WHayes - this WSDL is from this link
+http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</description>
+   <name>SOAPAPI_GET_Currency</name>
    <tag></tag>
-   <elementGuidId>47953fff-70e8-482d-a01a-f0987cd7a56b</elementGuidId>
+   <elementGuidId>1c2beb58-619e-40fa-9bb2-08e81a099762</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
-   <serviceType>RESTful</serviceType>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
-   <soapRequestMethod></soapRequestMethod>
-   <soapServiceFunction></soapServiceFunction>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceFunction>ListOfContinentsByName</soapServiceFunction>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -32,11 +30,6 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
-   <wsdlAddress></wsdlAddress>
+</verificationScript>
+   <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

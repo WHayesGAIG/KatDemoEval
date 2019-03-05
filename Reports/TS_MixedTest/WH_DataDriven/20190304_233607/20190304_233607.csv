@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WH_DataDriven,Chrome 72.0.3626.81,Run data driven test,2019-03-04 23:36:10,2019-03-04 23:36:20,9.373s,PASSED
+,,,,,,
+Test Cases/DataDriven Test/DD_TestExample,Chrome 72.0.3626.81,WH Data Driven Test Example,2019-03-04 23:36:11,2019-03-04 23:36:19,8.025s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-04 23:36:12,2019-03-04 23:36:15,3.597s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-04 23:36:15,2019-03-04 23:36:17,2.274s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-04 23:36:17,2019-03-04 23:36:18,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), uname)",Chrome 72.0.3626.81,,2019-03-04 23:36:18,2019-03-04 23:36:18,0.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), pswd)",Chrome 72.0.3626.81,,2019-03-04 23:36:18,2019-03-04 23:36:18,0.298s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-04 23:36:18,2019-03-04 23:36:19,0.373s,PASSED

@@ -51,21 +51,29 @@ class AllSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("User is on Registration Page")
+	@Given("Open Demo Site")
 	def user_open_url() {
-		WebUI.openBrowser("http://www.thetestingworld.com/testings")
+		WebUI.openBrowser("https://katalon-demo-cura.herokuapp.com/")
 		//println name
 	}
 
-
-
-	@When("User enters Username")
-	def user_enters_username(){
-		WebUI.setText(findTestObject('TestingWorld_LoginPage/username'), 'wandauser')
+	@When("User click on Make Appoint Link")
+	def User_click_on_Make_Appoint_Link(){
+		WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 	}
 
-	@When("User enters email Id")
-	def user_enters_emailID(){
-		WebUI.setText(findTestObject('TestingWorld_LoginPage/email'), 'whayesgaig@gmail.com')
+	@When("User enter valid LoginID")
+	def User_enter_valid_LoginID(){
+		WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+	}
+
+	@When("User enter valid password")
+	def User_enter_valid_password(){
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+	}
+
+	@When("User click on login button")
+	def User_click_on_login_button(){
+		WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
 	}
 }

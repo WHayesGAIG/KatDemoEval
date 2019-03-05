@@ -20,7 +20,7 @@
       <guid>5cf13184-eb3a-4155-8048-8d89888b7736</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Testing/USER_API_TESTING/SingleUserDetails_ForceFailure</testCaseId>
+      <testCaseId>Test Cases/API Testing/USER_API_TESTING/APITest_SglUser_ForceFailure</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fc2b988d-e495-402a-b1cb-a53ecc33eb33</guid>

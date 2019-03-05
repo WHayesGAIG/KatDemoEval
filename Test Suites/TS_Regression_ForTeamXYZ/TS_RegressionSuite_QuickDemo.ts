@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Run quick regression during demo</description>
+   <description>Run quick regression during demo.</description>
    <name>TS_RegressionSuite_QuickDemo</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -15,5 +15,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>73c3b90f-dee6-4848-82c5-7790261b4b95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_LoginFailure</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
