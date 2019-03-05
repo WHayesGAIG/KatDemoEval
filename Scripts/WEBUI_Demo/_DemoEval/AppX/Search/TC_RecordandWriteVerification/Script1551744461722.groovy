@@ -26,7 +26,7 @@ WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_userna
 
 WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'I474VAixgZjVtcCCRsKxXQKA2HsH6T4T')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
 
 WebUI.closeBrowser()
 

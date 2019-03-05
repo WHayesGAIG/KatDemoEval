@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Record test and capture verification</description>
+   <description>Record and verify step</description>
    <name>TC_RecordandWriteVerification</name>
    <tag></tag>
    <comment></comment>
