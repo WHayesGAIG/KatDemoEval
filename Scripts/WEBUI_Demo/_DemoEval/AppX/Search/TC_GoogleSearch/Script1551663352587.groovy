@@ -19,8 +19,6 @@ WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
 WebUI.setText(findTestObject('Object Repository/Page_Google/input_Sign in_q'), 'testingsearch ')
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/input_testingsearch_q'), 'testingsearch ')
-
 WebUI.click(findTestObject('Object Repository/Page_Google/input_Remove_btnK'))
 
 WebUI.closeBrowser()

@@ -17,8 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 'CURA Healthcare ServiceWH', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 'CURA Healthcare Service')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 

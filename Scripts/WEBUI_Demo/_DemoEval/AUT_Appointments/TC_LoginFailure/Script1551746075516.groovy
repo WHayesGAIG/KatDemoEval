@@ -27,3 +27,4 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/whbutton_Login'))
 
 not_run: WebUI.closeBrowser()
 
+

@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Smoke_XYZApp,Chrome 72.0.3626.81,,2019-03-04 19:36:29,2019-03-04 19:37:14,45.136s,FAILED
+,,,,,,
+Test Cases/API Testing/USER_API_TESTING/SglUserDetails,Chrome 72.0.3626.81,,2019-03-04 19:36:29,2019-03-04 19:36:34,4.875s,PASSED
+"apiUD_Response = sendRequest(findTestObject(""WS_Objects/RESTAPI_GET_SingleUser""))",Chrome 72.0.3626.81,,2019-03-04 19:36:30,2019-03-04 19:36:34,4.229s,PASSED
+"verifyResponseStatusCode(apiUD_Response, 200)",Chrome 72.0.3626.81,Verify API Response,2019-03-04 19:36:34,2019-03-04 19:36:34,0.018s,PASSED
+"verifyElementPropertyValue(apiUD_Response, ""data.first_name"", ""Janet"")",Chrome 72.0.3626.81,Verify the response record include WANDA in the text (this should fail),2019-03-04 19:36:34,2019-03-04 19:36:34,0.084s,PASSED
+,,,,,,
+Test Cases/API Testing/USER_API_TESTING/SingleUserDetails_ForceFailure,Chrome 72.0.3626.81,,2019-03-04 19:36:34,2019-03-04 19:36:36,1.157s,FAILED
+"apiUD_Response = sendRequest(findTestObject(""WS_Objects/RESTAPI_GET_SingleUser""))",Chrome 72.0.3626.81,Send API Request for Single User,2019-03-04 19:36:35,2019-03-04 19:36:35,0.846s,PASSED
+"verifyResponseStatusCode(apiUD_Response, 200)",Chrome 72.0.3626.81,updating desc,2019-03-04 19:36:35,2019-03-04 19:36:35,0.003s,PASSED
+"verifyElementPropertyValue(apiUD_Response, ""data.first_name"", ""Wanda"")",Chrome 72.0.3626.81,"Single User Details forcing failure by using wanda instead of janet
+",2019-03-04 19:36:35,2019-03-04 19:36:36,0.053s,FAILED
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AppX/Search/TC_GoogleSearch,Chrome 72.0.3626.81,,2019-03-04 19:36:36,2019-03-04 19:36:44,7.993s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-04 19:36:36,2019-03-04 19:36:38,2.518s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 72.0.3626.81,,2019-03-04 19:36:38,2019-03-04 19:36:41,2.116s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""testingsearch "")",Chrome 72.0.3626.81,,2019-03-04 19:36:41,2019-03-04 19:36:41,0.391s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_testingsearch_q""), ""testingsearch "")",Chrome 72.0.3626.81,,2019-03-04 19:36:41,2019-03-04 19:36:41,0.328s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Chrome 72.0.3626.81,,2019-03-04 19:36:41,2019-03-04 19:36:43,1.541s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-03-04 19:36:43,2019-03-04 19:36:44,0.746s,PASSED
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AUT_Appointments/TC_MakeAppointment,Chrome 72.0.3626.81,This test case is for making an appt,2019-03-04 19:36:44,2019-03-04 19:37:06,22.487s,FAILED
+"callTestCase(findTestCase(""WEBUI_Demo/_DemoEval/AUT_Appointments/TC_LoginFailure""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.81,,2019-03-04 19:36:44,2019-03-04 19:36:50,5.795s,PASSED
+"selectOptionByValue(findTestObject(""otherPage/selectBoxForHealthCareCenter""), ""Hongkong CURA Healthcare Center"", true)",Chrome 72.0.3626.81,,2019-03-04 19:36:50,2019-03-04 19:37:06,16.428s,FAILED
+,,,,,,
+Test Cases/WEBUI_Demo/_DemoEval/AppX/Search/TC_RecordandWriteVerification,Chrome 72.0.3626.81,Record and verify step,2019-03-04 19:37:06,2019-03-04 19:37:14,8.168s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.81,,2019-03-04 19:37:06,2019-03-04 19:37:08,2.087s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 72.0.3626.81,,2019-03-04 19:37:08,2019-03-04 19:37:11,2.117s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/strong_CURA Healthcare Service""), ""CURA Healthcare ServiceWH"", CONTINUE_ON_FAILURE)",Chrome 72.0.3626.81,,2019-03-04 19:37:11,2019-03-04 19:37:12,1.440s,FAILED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 72.0.3626.81,,2019-03-04 19:37:12,2019-03-04 19:37:12,0.506s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 72.0.3626.81,,2019-03-04 19:37:12,2019-03-04 19:37:13,0.250s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""I474VAixgZjVtcCCRsKxXQKA2HsH6T4T"")",Chrome 72.0.3626.81,,2019-03-04 19:37:13,2019-03-04 19:37:13,0.283s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/whbutton_Login""))",Chrome 72.0.3626.81,,2019-03-04 19:37:13,2019-03-04 19:37:13,0.478s,PASSED
+closeBrowser(),Chrome 72.0.3626.81,,2019-03-04 19:37:13,2019-03-04 19:37:14,0.703s,FAILED
