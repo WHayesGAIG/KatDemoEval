@@ -12,21 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://www.thetestingworld.com/testings/')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.setText(findTestObject('TestingWorld_LoginPage/input_Address type HomeOffice_fld_username'), 'wandauser')
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/strong_CURA Healthcare Service'), 'CURA Healthcare ServiceWH', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('TestingWorld_LoginPage/input_Address type HomeOffice_fld_email'), 'whayesgaig@gmail.com')
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setEncryptedText(findTestObject('TestingWorld_LoginPage/input_Address type HomeOffice_fld_password'), 'WLedGZzR8tEN7kc0y7IIlA==')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('TestingWorld_LoginPage/input_Address type HomeOffice_fld_cpassword'), 'WLedGZzR8tEN7kc0y7IIlA==')
+WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'I474VAixgZjVtcCCRsKxXQKA2HsH6T4T')
+
+WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 
 WebUI.closeBrowser()
-
-WebUI.setEncryptedText(findTestObject('TestingWorld_LoginPage/input_Address type HomeOffice_fld_cpassword'), 'WLedGZzR8tEN7kc0y7IIlA==')
 

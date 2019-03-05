@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>go to facebook page</description>
+   <name>TC_RecordandWriteVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d228c5ee-f845-46e1-9253-e28da342f1c3</testCaseGuid>
+</TestCaseEntity>
